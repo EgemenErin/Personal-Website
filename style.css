@@ -1,0 +1,46 @@
+.gradient-background {
+    background: linear-gradient(300deg, #FF6200, #FD7F2C, #FDB777);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.nav-link.active {
+    background-color: white!important;
+    }
+.nav-link {
+    color: black!important;
+    }
+#Name{
+    color: white!important;
+}
+.education {
+  padding: 20px;
+
+}
+.education h2, .education h3 {
+  margin-top: 10px;
+}
+.education ul {
+  padding-left: 20px;
+}
+@keyframes scaleAnimation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); } /* Scale up to 110% */
+  100% { transform: scale(1); }
+}
+
+.rounded-5:hover {
+  animation: scaleAnimation 0.3s ease-in-out; /* Apply the animation */
+}
