@@ -1,9 +1,8 @@
 .gradient-background {
-    background: linear-gradient(300deg, #FF6200, #FD7F2C, #FDB777);
+    background: linear-gradient(300deg, #F5F5F5, #F2EAD3);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
-  }
-  
+  } 
   @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
@@ -22,12 +21,20 @@
 .nav-link {
     color: black!important;
     }
-#Name{
-    color: white!important;
-}
 .education {
   padding: 20px;
-
+}
+#Hello{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 100!important;
+}
+#Name{
+  font-family: 'Outfit', sans-serif;
+  font-weight:200!important
+}
+.lead{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 100!important;
 }
 .education h2, .education h3 {
   margin-top: 10px;
